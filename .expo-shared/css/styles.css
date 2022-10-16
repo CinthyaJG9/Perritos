@@ -1,0 +1,40 @@
+body {
+    margin :0;
+    padding:0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.main {
+    padding:40px
+}
+.cartIcon {
+    position: fixed;
+    top: 10px;
+    right: 140px;
+    cursor:pointer;
+    z-index: 100;
+    background: azure;
+}
+aside {
+    width:460px;
+    margin : 20px;
+}
+.itemCart {
+    display:flex;
+    justify-content: space-between;
+}
+.itemCart img{
+    max-width: 80px;
+    object-fit: cover;
+    margin-left: 40px;
+}
+.itemCart div{
+    flex : 1
+}
+.itemInfo {
+    display: flex;
+    justify-content : space-between
+}
+.buttons {
+    display:flex;
+    justify-content : space-between
+}
